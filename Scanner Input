@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Test1 {
+    public static void main(String[] args) {
+        Scanner sr = new Scanner(System.in);
+        String s = sr.nextLine();
+        System.out.println("Entered string " + s);
+        int i = sr.nextInt();
+        System.out.println("Entered integer " + i);
+        Float f = sr.nextFloat();
+        System.out.println("Entered float " + f);
+        sr.close();
+
+    }
+}
