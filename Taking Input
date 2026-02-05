@@ -1,0 +1,23 @@
+import java.util.*;
+
+class GFG {
+    public static void main(String args[]) {
+        // Implement Scanner Class
+        Scanner sr = new Scanner(System.in);
+        // Take all inputs
+        int i = sr.nextInt();
+        Float f = sr.nextFloat();
+        long l = sr.nextLong();
+        Byte b = sr.nextByte();
+        sr.nextLine();
+        String z = sr.nextLine();
+        
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(l);
+        System.out.println(b);
+        System.out.println(z);
+        
+        // Print all the values
+    }
+}
