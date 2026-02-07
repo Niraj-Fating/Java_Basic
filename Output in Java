@@ -1,0 +1,15 @@
+class output {
+    public static void main(String[] args) {
+        int x = 100, y = 200;
+
+        System.out.println("The value of x is " + x);
+        double f = Math.PI;
+
+        System.out.println(f);
+        System.out.format("The value of pi is %.2f\n", f);
+
+        System.out.format("The Value =%5.2f\n", f);
+
+        System.out.printf("The Value =%05.2f\n", f);
+    }
+}
