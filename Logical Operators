@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Test {
+    public static void main(String[] args) {
+        String ugs = "geek", str = "GEEK";
+
+        Scanner sc = new Scanner(System.in);
+        String ug = sc.next();
+        String pd = sc.next();
+
+        if (ugs.equals(ug) && str.equals(pd))
+            System.out.println("Welcome");
+        else
+            System.out.println("Try Again");
+    }
+}
