@@ -10,5 +10,8 @@ class Test {
         int y = 4;
         int z = (x << y);
         System.out.println(z);
+
+        int a = -1;
+        System.out.println(a << 1);
     }
 }
