@@ -1,0 +1,9 @@
+class Solution {
+    public int lastDigit(int n) {
+        // Code here
+        int ans = (n%10);
+        if(ans < 0)
+        ans = (-ans);
+        return ans;
+    }
+}
