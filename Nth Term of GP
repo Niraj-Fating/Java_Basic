@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+class Solution {
+    public static void solve() {
+        Scanner scn = new Scanner(System.in);
+        int a = scn.nextInt();
+        int n = scn.nextInt();
+        int r = 2;
+        // Compute and Print
+        int res = a;
+        for(int i=1;i<=n-1;i++)
+        res = res*r;
+        System.out.println(res);
+    }
+}
